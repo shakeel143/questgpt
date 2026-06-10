@@ -523,7 +523,7 @@
 </div>
 
 <script>
-const API_BASE = 'https://broad-glade-d7f9.shakeel-ahmed.workers.dev/';
+const API_BASE = 'https://broad-glade-d7f9.shakeel-ahmed.workers.dev';
 
 let currentRole = null; // 'user' | 'admin'
 let sessions = [];
@@ -1102,13 +1102,6 @@ function closeSidebar() {
   document.getElementById('sidebar').classList.remove('open');
   document.getElementById('sidebarOverlay').classList.remove('open');
 }
-const cors = require("cors");
-
-app.use(cors({
-    origin: [
-      "https://shakeel143.github.io"
-    ]
-}));
 </script>
 </body>
 </html>
